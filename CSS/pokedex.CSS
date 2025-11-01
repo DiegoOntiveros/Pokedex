@@ -18,28 +18,30 @@ h3{
 
 }
 
-input{
-font-size:45px;
-width: 750px;
-text-align: center;
-font-family:monospace; sans-serif ;
-margin-left:550px;
-margin-top:200px;
-border-radius:35px;
+input {
+  font-size: 45px;
+  width: 60%;
+  max-width: 750px;
+  text-align: center;
+  font-family: monospace, sans-serif;
+  border-radius: 35px;
+  padding: 10px;
+  display: block;     
+  margin: 200px auto 0;  
 }
 
-button{
-	color: white;
-	width:200px;
-	height: auto;
-	font-size:35px;
-	margin-top: 50px;
-	margin-left: 815px;
-	border-radius:20px;
-	background-color: #d00000;
-	cursor:pointer;
-	border: ;
+button {
+  color: white;
+  width: 200px;
+  font-size: 35px;
+  margin: 50px auto 0;   
+  display: block;
+  border-radius: 20px;
+  background-color: #d00000;
+  cursor: pointer;
+  border: none;
 }
+
 
 #resultado{
 	text-align: center;
