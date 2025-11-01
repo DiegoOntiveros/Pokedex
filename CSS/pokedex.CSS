@@ -1,0 +1,70 @@
+body{
+background-color:#ffffff;
+}
+
+h1{
+	font-size:100px;
+	text-align: center;
+	font-family:'Solid', sans-serif;
+	color: #ffd60a;
+
+}
+
+h3{
+	font-size:25px;
+	text-align: center;
+	font-family:'Solid', sans-serif;
+	color: #ffd60a;
+
+}
+
+input{
+font-size:45px;
+width: 750px;
+text-align: center;
+font-family:monospace; sans-serif ;
+margin-left:550px;
+margin-top:200px;
+border-radius:35px;
+}
+
+button{
+	color: white;
+	width:200px;
+	height: auto;
+	font-size:35px;
+	margin-top: 50px;
+	margin-left: 815px;
+	border-radius:20px;
+	background-color: #d00000;
+	cursor:pointer;
+	border: ;
+}
+
+#resultado{
+	text-align: center;
+	font-family:'Solid', sans-serif;
+
+}
+
+#btnAgregar{
+	text-align: center;
+	font-family:'Solid', sans-serif;
+	margin-left: 5px;
+}
+
+.poke-card{
+	background-color: white;
+	border: 5px solid #3B4CCA !important;
+  	border-radius: 20px;
+  	text-align: center;
+  	align-items: center;
+  	image-resolution: 550px;
+  	padding:10px;
+
+}
+
+.poke-card img {
+  width: 250px;  
+  height: 250px;
+}

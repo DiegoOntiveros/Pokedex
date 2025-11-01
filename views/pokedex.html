@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../CSS/pokedex.CSS">
+  <title>Pokédex</title>
+  <style>
+    .poke-card { border: 1px solid #ccc; padding: 10px; margin: 10px; display: inline-block; text-align: center; }
+    #equipo { display: flex; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+
+  <h1>
+  <span style="color: #FFCB05;">P</span>
+  <span style="color: #3B4CCA;">O</span>
+  <span style="color: #FF0000;">K</span>
+  <span style="color: #ff8fab;">E</span>
+  <span style="color: #bc3908;">D</span>
+  <span style="color: #00db25;">E</span>
+  <span style="color: #5a189a;">X</span>
+</h1>
+
+<h3>Tu buscador de pokemones de confianza</h3>
+
+  <input type="text" id="buscar" placeholder="Nombre o número del Pokémon">
+  <br>
+  <br>
+  <button id="btnBuscar">Buscar</button>
+
+  <div id="resultado"></div>
+
+  <h2>Mi Equipo (0/5)</h2>
+  <div id="equipo"></div>
+
+  <script src="../assets/Js/pokedex.js"></script>
+
+</body>
+</html>
