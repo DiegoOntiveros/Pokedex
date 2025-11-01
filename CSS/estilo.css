@@ -109,7 +109,7 @@ form{
 @media (max-width: 480px) {
   #equipoDiv {
     grid-template-columns: 1fr; 
-    gap: 10px;
-    padding: 10px;
+    gap: 8px;
+    padding: 8px;
   }
 }
